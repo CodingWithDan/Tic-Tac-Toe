@@ -1,0 +1,14 @@
+# My Awesome Project
+A little project I worked on with a few other members from 100Devs to demonstrate our understanding of HTML, CSS, and JavaScript. Simple, but effective.
+
+[**Link to project:** [http://recruiters-love-seeing-live-demos.com/](https://100devs-tictactoe.glitch.me/)]
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
+
+Having focussed on JavaScript for a good while, it was fun to get back in to the HTML and CSS side of things, and utilize all 3. 
+
+## Lessons Learned:
+
+How important teamwork and communcation is when it comes to every project, even ones as simple as this. 
