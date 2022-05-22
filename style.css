@@ -1,0 +1,90 @@
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	margin: 0;
+	font-family: "Nova Square", cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.game-board {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/* outline: 20px solid blue; */
+}
+.row-01,
+.row-02,
+.row-03 {
+	height: 33.333%;
+	display: flex;
+	/* outline: 10px solid red; */
+}
+.board-square {
+	height: 100%;
+	width: 200px;
+	font-size: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid black;
+}
+/* have the X's and O's be vertically and horizontally centered. */
+
+/* testing area */
+
+/* .game-board .row-01 {
+	background-color: #fffff0;
+}
+.game-board .row-02 {
+	background-color: #fffff1;
+}
+.game-board .row-03 {
+	background-color: hsl(0, 100%, 84%);
+}
+
+.game-board .row-01 section:nth-child(1) {
+	background-color: rgb(30, 228, 30);
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Removing the border for the board */
+section.board-square:nth-child(1) {
+	border-left: 0px;
+}
+section.board-square:nth-child(3) {
+	border-right: 0px;
+}
+section.row-01 .board-square {
+	border-top: 0px;
+}
+section.row-03 .board-square {
+	border-bottom: 0px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
