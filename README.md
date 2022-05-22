@@ -1,4 +1,4 @@
-# My Awesome Project
+# Tic-Tac-Toe
 A little project I worked on with a few other members from 100Devs to demonstrate our understanding of HTML, CSS, and JavaScript. Simple, but effective.
 
 [**Link to project:** [http://recruiters-love-seeing-live-demos.com/](https://100devs-tictactoe.glitch.me/)]
